@@ -1,7 +1,5 @@
 streamlit
-plotly
 pandas
-numpy
+openpyxl
+plotly
 lifelines
-matplotlib
-scikit-learn
