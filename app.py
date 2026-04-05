@@ -7,6 +7,7 @@ from lifelines import KaplanMeierFitter, CoxPHFitter
 from lifelines.statistics import logrank_test, multivariate_logrank_test
 from itertools import combinations
 
+df = pd.read_excel("loan_default_survival__1_.xlsx")
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Loan Default — Survival Analysis", page_icon="📊", layout="wide")
 
